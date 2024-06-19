@@ -27,7 +27,7 @@ It is dicrete and is comprised of 4 signal phases
 conda create --name tf_gpu
 activate tf_gpu
 conda install tensorflow-gpu
-4. Use this tf_gpu environment to run your code.
+4. Use this tf_gpu environment to run your code, here run pip install requirements.txt to install all the required packages.
 5. Just run the training_main.py code to see the code working.
 6. To see SUMO GUI, set gui to True in training_settings.ini file.
 7. Note, if you want to change the network, you have to change the contents of the training_simulation.py, training_settings.ini, utils.py, testing_simulation.py, testing_settings.ini files as well.
